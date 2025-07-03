@@ -5,8 +5,18 @@ import os
 print("Current folder:", os.getcwd())
 print("Files in folder:", os.listdir())
 
+
 pygame.init()
-icon = pygame.image.load("calc_icon.png")
+
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS  # used when running from PyInstaller bundle
+    except AttributeError:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+
+icon = pygame.image.load(resource_path("calc_icon.png"))
+
 pygame.display.set_icon(icon)
 WIDTH, HEIGHT = 430, 400
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
